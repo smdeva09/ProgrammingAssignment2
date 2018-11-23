@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getInverse = getInverse)
 }
 
-## The following function calculates the mean of the special "matrix" created with the above function
+## The following function calculates the inverse of the special "matrix" created with the above function
 
 cachesolve <- function(x, ...) {
   inv <- x$getInverse()
